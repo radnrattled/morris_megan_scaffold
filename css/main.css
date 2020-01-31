@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+.hidden {
+	display: none;
+}
+
+/* Main header */
+#topBar
+{
+	background-color: black;
+	height: 20px;
+}
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+.mainLogo {
+	margin-left: auto;
+	width: 190px;
+	height: 51px;
+	background-color: black;
+}
+
+.mainNav {
+	margin-left: 112px;
+	width: 426px;
+	height: 51px;
+	background-color: black;
+}
+
+.socials {
+	margin-left: 50px;
+	width: 113px;
+	height: 51px;
+	background-color: black;
+}
+/*main footer*/
+
+#mainFooter
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+/* Index */
+
+#hero 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+
+#hero p 
+{
+	line-height: 35px;
+	text-align: left;
+}
+
+#map 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+
+#map p 
+{
+	line-height: 35px;
+	text-align: left;
+}
+
+#beerTaste 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+}
+
+
+.hero {
+	width: 886px;
+	height: 267px;
+	background-color: black;
+} 
+	
+.rightTaste {
+	width: 232px;
+	height: 299px;
+	background-color: black;
+}
+
+.leftTaste {
+	width: 232px;
+	height: 299px;
+	background-color: black;
+}
+
+.beerImg {
+	width: 146px;
+	height: 299px;
+	background-color: black;
+}
+
+.map {
+	width: 886px;
+	height: 267px;
+	background-color: black;
+} 
+
+/* History */
+
+#timeLine1, #timeLine2, #timeLine3
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+}
+
+.promoText {
+	width: 540px;
+	height: 266px;
+	background-color: black;
+}
+
+.promoImg {
+	width: 310px;
+	height: 266px;
+	background-color: black;
+}
+
+
