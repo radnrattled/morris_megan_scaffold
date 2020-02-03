@@ -188,4 +188,42 @@ a:hover, a:active
 	background-color: black;
 }
 
+/* The Bottle */
 
+#columncon {
+
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+  	justify-content: space-between;
+
+}
+
+#rowcon {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+}
+
+.smallbox {
+	margin-bottom: 20px;
+	width: 210px;
+	height: 131px;
+	background-color: black;
+}
+
+.largebox {
+	margin-bottom: 20px;
+	width: 210px;
+	height: 213px;
+	background-color: black;
+}
+
+.bottle {
+	width: 384px;
+	height: 789px;
+	background-color: black;
+}
